@@ -241,6 +241,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\ExtensionMethod.cs" />
+    <Compile Include="Assets\Scripts\Geomerty\CompositeShape.cs" />
+    <Compile Include="Assets\Scripts\Geomerty\CompositeShapeData.cs" />
+    <Compile Include="Assets\Scripts\Geomerty\Maths2D.cs" />
+    <Compile Include="Assets\Scripts\Geomerty\Polygon.cs" />
+    <Compile Include="Assets\Scripts\Geomerty\Shape.cs" />
+    <Compile Include="Assets\Scripts\Geomerty\Triangulator.cs" />
     <Compile Include="Assets\Scripts\ShapeCreator.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
