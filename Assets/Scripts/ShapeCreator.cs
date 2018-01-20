@@ -1,11 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Linq;
 using Geometry;
 
 public class ShapeCreator : MonoBehaviour
 {
     public MeshFilter meshFilter;
+    public Sprite sprite;
 
     [HideInInspector]
     public List<Shape> shapes = new List<Shape>();
